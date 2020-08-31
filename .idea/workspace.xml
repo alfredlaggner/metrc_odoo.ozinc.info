@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="747adb48-f53a-4d24-a77d-a053fba9a503" name="Default Changelist" comment="start import tags">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/manifest.ozinc.info/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/composer" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/edujugon/laradoo" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/spatie/once" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/moontoast/math" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/cakephp/chronos" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/manifest.ozinc.info/vendor/hamcrest/hamcrest-php" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1PvZF4hIbcuVNrNCL5HgTNCLHXF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/metrc" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alfre\code\metrc_odoo.ozinc.info\resources\views\metrc" />
+      <recent name="C:\Users\alfre\code\metrc_manifest.ozinc.info\app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="747adb48-f53a-4d24-a77d-a053fba9a503" name="Default Changelist" comment="" />
+      <created>1566756423721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566756423721</updated>
+      <workItem from="1566756425237" duration="1607000" />
+      <workItem from="1579539455177" duration="3756000" />
+      <workItem from="1587758587731" duration="6169000" />
+      <workItem from="1587871293669" duration="105000" />
+      <workItem from="1587871509228" duration="3312000" />
+      <workItem from="1588015230851" duration="724000" />
+      <workItem from="1588024617640" duration="43130000" />
+      <workItem from="1588284361149" duration="4952000" />
+      <workItem from="1588295959068" duration="8639000" />
+      <workItem from="1588366555900" duration="2140000" />
+      <workItem from="1588371705166" duration="4062000" />
+      <workItem from="1588632363026" duration="606000" />
+      <workItem from="1588873123069" duration="10873000" />
+      <workItem from="1588975711317" duration="2097000" />
+      <workItem from="1589387786010" duration="1008000" />
+      <workItem from="1589397649479" duration="7641000" />
+      <workItem from="1589416391675" duration="1337000" />
+      <workItem from="1589484560690" duration="1939000" />
+      <workItem from="1589488197100" duration="6634000" />
+      <workItem from="1589562349121" duration="4312000" />
+      <workItem from="1589576114668" duration="1928000" />
+      <workItem from="1589581815642" duration="1169000" />
+      <workItem from="1589728056113" duration="20856000" />
+      <workItem from="1598655433622" duration="10479000" />
+      <workItem from="1598715387611" duration="3646000" />
+      <workItem from="1598740585296" duration="169000" />
+      <workItem from="1598740797178" duration="17723000" />
+      <workItem from="1598881786717" duration="18053000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1598641772124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598641772124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="start testing">
+      <created>1598881930145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598881930145</updated>
+    </task>
+    <task id="LOCAL-00003" summary="start import tags">
+      <created>1598901678453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598901678453</updated>
+    </task>
+    <task id="LOCAL-00004" summary="start import tags">
+      <created>1598902116385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598902116385</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="first commit" />
+    <MESSAGE value="start testing" />
+    <MESSAGE value="start import tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="start import tags" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1598641506131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1598641506131" />
+    <state x="536" y="165" key="#SSH_Configurations" timestamp="1598640146565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="536" y="165" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1598640146565" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598901389569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598901389569" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1598883154754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1598883154754" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1598902517056">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598902517056" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598642169075" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598882144677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1598882144677" />
+    <state x="667" y="241" width="585" height="558" key="find.popup" timestamp="1598722131827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="241" width="585" height="558" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598722131827" />
+    <state x="609" y="338" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598902058824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="609" y="338" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598902058824" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598642159610" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1598887042831">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598887042831" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598716029149" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/print_manifest.blade.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
