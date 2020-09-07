@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="ff8343ba-d867-4697-aa61-13c2be3e270d" name="64.227.58.33" url="https://metrc_odoo.ozinc.info">
+      <webServer id="ff8343ba-d867-4697-aa61-13c2be3e270d" name="metrc_odoo.ozinc.info" url="https://metrc_odoo.ozinc.info">
         <fileTransfer rootFolder="/home/forge/metrc_odoo.ozinc.info" accessType="SFTP" host="165.227.4.200" port="22" sshConfigId="f453a3d7-0f0b-42da-b2cd-b45df1452e15" sshConfig="forge@165.227.4.200:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />

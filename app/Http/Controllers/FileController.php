@@ -77,9 +77,10 @@ class FileController extends Controller
             $so = SalesOrder::where('sales_order', $sale_order_full)->first();
             //    $this->updateOrderLines($return_tag, $return_line_number);
 
-            //   dd($sale_order_full);
+               dump($sale_order_full);
         } else {
             $saleorder_number = $request->get('saleorder_number');
+            abort_if(!$saleorder_number,403,'You must enter a sales order number');
             $so = MetrcSalesOrder::firstOrCreate(['saved_sales_order' => $saleorder_number]);
             $validatedData = $request->validate(['saleorder_number' => 'required|numeric']);
             $sale_order = explode(" ", $validatedData['saleorder_number']);
@@ -88,7 +89,7 @@ class FileController extends Controller
             $so = SalesOrder::where('sales_order', "SO" . $order_id)->first();
             //   dd($so);
             $this->importOrderLines($so->ext_id);
-            //   dd($order_id);
+  //         dump($order_id);
         }
 
         $sales_lines = MetrcOrderline::get();

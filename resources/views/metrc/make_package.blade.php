@@ -46,8 +46,7 @@
                         <div class="form-group text-left">
                             <label for="tag">Select Source Package</label>
                             <select class="form-control form-control-lg" id="myoption" style="height:35px;"
-                                    name="source_package"  data-toggle="popover" data-trigger="hover" title="Help"
-                                    data-content="Choose source package">
+                                    name="source_package" >
                                 @foreach ($source_packages as $source_package)
                                     @if ($source_package->tag == $tag)
                                         <option selected
@@ -63,8 +62,7 @@
                         <div class="form-group text-left">
                             <label for="tag">Select a new tag</label>
                             <select class="form-control form-control-lg" id="myoption_tag" style="height:35px;"
-                                    name="new_package" data-toggle="popover" data-trigger="hover" title="Help"
-                                    data-content="Either select next available tag or scan tag for this package">
+                                    name="new_package" >
                                 @foreach ($tags as $tag)
                                     @if($tag->tag == $new_package)
                                         <option selected
@@ -114,13 +112,13 @@
                                 <div class="col">
                                     <button id="printLable1" name="action" value="save"
                                             class="btn btn-lg btn-primary btn-block"
-                                            type="submit"  data-toggle="popover" data-trigger="hover" title="Help"
+                                            type="submit"  data-toggle="toolkit" title="Help"
                                             data-content="Save changes and return to manifest print page">Save and Return
                                     </button>
                                 </div>
                                 <div class="col">
                                     <button id="printLable" name="action" value="create"
-                                            class="btn btn-lg btn-primary btn-block" type="submit"  data-toggle="popover" data-trigger="hover" title="Help"
+                                            class="btn btn-lg btn-primary btn-block" type="submit"  data-toggle="toolkit"  title="Help"
                                             data-content="Create a new Metrc package">Create Package
                                     </button>
                                 </div>
@@ -131,7 +129,7 @@
                                     </button>
                                 </div>
                                 <div class="col">
-                                    <button id="printLable2" name="action" value="discard"
+                                    <button id="printlabel2" name="action" value="discard"
                                             class="btn btn-lg btn-primary btn-block" type="submit"  data-toggle="popover" data-trigger="hover" title="Help"
                                             data-content="Remove this product from manifest creation">Discard Changes
                                     </button>
