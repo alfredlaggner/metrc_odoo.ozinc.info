@@ -3,6 +3,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig host="64.227.58.33" id="2f348891-65b9-4abf-a7e1-d25c7f806858" keyPath="C:\Users\alfre\.ssh\id_rsa_stella" port="22" nameFormat="DESCRIPTIVE" username="forge" />
+      <sshConfig host="165.227.4.200" id="f453a3d7-0f0b-42da-b2cd-b45df1452e15" keyPath="C:\Users\alfre\.ssh\id_rsa" port="22" nameFormat="DESCRIPTIVE" username="forge" />
     </configs>
   </component>
 </project>
