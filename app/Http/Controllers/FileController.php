@@ -2,11 +2,13 @@
 
 namespace App\ Http\ Controllers;
 
+use Illuminate\Support\Facades\Artisan;
 use App\LicenseNumber;
 use App\MetrcPackage;
 use App\MetrcPlannedRoute;
 use App\MetrcSalesOrder;
 use App\MetrcOrderline;
+use App\MetrcTmpSalesOrder;
 use App\SalesOrder;
 use Illuminate\ Http\ Request;
 use App\ Http\ Controllers\ Controller;
@@ -77,19 +79,22 @@ class FileController extends Controller
             $so = SalesOrder::where('sales_order', $sale_order_full)->first();
             //    $this->updateOrderLines($return_tag, $return_line_number);
 
-               dump($sale_order_full);
         } else {
             $saleorder_number = $request->get('saleorder_number');
-            abort_if(!$saleorder_number,403,'You must enter a sales order number');
+
+       //     abort_if(!$saleorder_number, 403, 'You must enter a sales order number');
+            if (!$saleorder_number) return redirect(route('start'))->with('status', 'You must enter a sales order number');
+
             $so = MetrcSalesOrder::firstOrCreate(['saved_sales_order' => $saleorder_number]);
             $validatedData = $request->validate(['saleorder_number' => 'required|numeric']);
             $sale_order = explode(" ", $validatedData['saleorder_number']);
             $sale_order_full = "SO" . $sale_order[0];
             $order_id = intval($saleorder_number);
-            $so = SalesOrder::where('sales_order', "SO" . $order_id)->first();
-            //   dd($so);
+            $so = $this->import_salesorder("SO" . $order_id);
+         //   abort_if(!$so, 403, 'Order not found. Try a different order number');
+            if (!$so) return redirect(route('start'))->with('status', 'Order not found');
+
             $this->importOrderLines($so->ext_id);
-  //         dump($order_id);
         }
 
         $sales_lines = MetrcOrderline::get();
@@ -222,6 +227,15 @@ class FileController extends Controller
         return view('metrc.manifest', compact('to_view', 'view_saleslines', 'error_message'));
     }
 
+    private function import_salesorder($sales_order)
+    {
+        MetrcTmpSalesOrder::truncate();
+      //  dd($sales_order);
+        Artisan::call('odoo:salesorders', ['sales_order' => $sales_order]);
+        $so = MetrcTmpSalesOrder::first();
+        return ($so);
+    }
+
     public function make_manifests(Request $request)
     {
         //      return redirect('do_test');
@@ -246,7 +260,7 @@ class FileController extends Controller
             if ($tags[$i]) {
                 MetrcOrderline::where('id', $ids[$i])->update([
                     'metrc_package_created' => $tags[$i],
-             //       'metrc_uom' => 'Each',
+                    //       'metrc_uom' => 'Each',
                 ]);
             }
         }
@@ -486,7 +500,7 @@ class FileController extends Controller
     public
     function make_metrc_sales_lines($sales_lines)
     {
-     //     dd($sales_lines);
+        //     dd($sales_lines);
         $metrc_sales_lines = [];
         $sales_line_counter = 1;
         //     dd($sales_lines);
