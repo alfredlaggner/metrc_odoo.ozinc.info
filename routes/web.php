@@ -50,4 +50,6 @@ Route::group([], function () { // This will use the default web middleware
     Route::get('import_tags', 'ImportTagsController@index')->name('import_tags');
     Route::post('do_import', 'ImportTagsController@import_tags')->name('do_import');
 
+ //   Route::get('admin/vehicles', 'TimespanController@export_so_time_span')->name('export_so_time_span');
+
 });

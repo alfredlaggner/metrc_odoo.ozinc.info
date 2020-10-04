@@ -50,10 +50,10 @@
                                 @foreach ($source_packages as $source_package)
                                     @if ($source_package->tag == $tag)
                                         <option selected
-                                                value={{$source_package->tag}}>{{$source_package->tag . " - " . $source_package->item . " - " . "Date: " . $source_package->date . " - " .  "Quantity: " .  $source_package->quantity . " "  . $source_package->uom }} </option>
+                                                value={{$source_package->tag}}>{{$source_package->item . " - " . "Date: " . $source_package->date . " - " .  "Quantity: " .  $source_package->quantity . " "  . $source_package->uom .  " - " . $source_package->tag  }} </option>
                                     @else
                                         <option
-                                            value={{$source_package->tag}}>{{$source_package->tag . " - " . $source_package->item . " - " . "Date: " . $source_package->date . " - " .  "Quantity: " .  $source_package->quantity . " "  . $source_package->uom }} </option>
+                                            value={{$source_package->tag}}>{{$source_package->item . " - " . "Date: " . $source_package->date . " - " .  "Quantity: " .  $source_package->quantity . " "  . $source_package->uom . " - " . $source_package->tag }} </option>
                                     @endif
                                 @endforeach
                             </select>
@@ -111,26 +111,26 @@
                             <div class="row">
                                 <div class="col">
                                     <button id="printLable1" name="action" value="save"
-                                            class="btn btn-lg btn-primary btn-block"
+                                            class="btn btn-sm btn-primary btn-block"
                                             type="submit"  data-toggle="toolkit" title="Help"
                                             data-content="Save changes and return to manifest print page">Save and Return
                                     </button>
                                 </div>
                                 <div class="col">
                                     <button id="printLable" name="action" value="create"
-                                            class="btn btn-lg btn-primary btn-block" type="submit"  data-toggle="toolkit"  title="Help"
+                                            class="btn btn-sm btn-primary btn-block" type="submit"  data-toggle="toolkit"  title="Help"
                                             data-content="Create a new Metrc package">Create Package
                                     </button>
                                 </div>
                                 <div class="col">
                                     <button id="printLable2" name="action" value="remove"
-                                            class="btn btn-lg btn-primary btn-block" type="submit"  data-toggle="popover" data-trigger="hover" title="Help"
+                                            class="btn btn-sm btn-primary btn-block" type="submit"  data-toggle="popover" data-trigger="hover" title="Help"
                                             data-content="Remove this product from manifest creation">Remove Product
                                     </button>
                                 </div>
                                 <div class="col">
                                     <button id="printlabel2" name="action" value="discard"
-                                            class="btn btn-lg btn-primary btn-block" type="submit"  data-toggle="popover" data-trigger="hover" title="Help"
+                                            class="btn btn-sm btn-primary btn-block" type="submit"  data-toggle="popover" data-trigger="hover" title="Help"
                                             data-content="Remove this product from manifest creation">Discard Changes
                                     </button>
                                 </div>

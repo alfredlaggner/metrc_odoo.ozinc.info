@@ -93,6 +93,20 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <p class="mb-0">
+                                        <a href="/admin/resources/users" >Drivers</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <p class="mb-0">
+                                        <a href="/admin/resources/vehicles">Vehicles</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
 
                     </div>

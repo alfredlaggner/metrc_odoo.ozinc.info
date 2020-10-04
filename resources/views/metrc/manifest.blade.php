@@ -125,6 +125,15 @@
                                 <p class="error">{{$error_message[$i]}} </p>
                             @endfor
                         </div>
+                        <div class="row mb-2 d-flex justify-content-end">
+                            <div class="col-3">
+                                <button id="mybutton" class="btn btn-sm btn-outline-warning btn-block" type="reset"
+                                        onclick="clearErrors()">
+                                    Remove Messages
+                                </button>
+                            </div>
+                        </div>
+
                     @endif
 
                     <table class="table table-hover table-bordered">
@@ -153,10 +162,12 @@
 
                                 <td><input style='width:235px' type="text" name='tag[]'
                                            class="form-control"
-                                           value="{{$view_saleslines[$i]['metrc_package_created']}}"  data-toggle="popover" data-trigger="hover" title="Help"
+                                           value="{{$view_saleslines[$i]['metrc_package_created']}}"
+                                           data-toggle="popover" data-trigger="hover" title="Help"
                                            data-content="Scan or type tag number of package."></td>
 
-                                <input type="hidden" name="salesline[]" value="{{$view_saleslines[$i]['total']}}">
+                                <input type="hidden" name="salesline[]"
+                                       value="{{$view_saleslines[$i]['total']}}">
                                 <input type="hidden" name="id[]" value="{{$view_saleslines[$i]['id']}}">
                                 <td>{{$view_saleslines[$i]['code']}}</td>
                                 <td>{{$view_saleslines[$i]['name']}}</td>
@@ -167,7 +178,7 @@
                                 <td>{{number_format($view_saleslines[$i]['price'],2)}}</td>
                                 <td>{{$view_saleslines[$i]['total']}}</td>
                                 <td class=""><a href="{{route('make_package',$view_saleslines[$i])}}"
-                                                class="btn btn-success">Action</a></td>
+                                                class="btn btn-sm btn-success">Action</a></td>
                             </tr>
                         @endfor
                         </tbody>
@@ -178,18 +189,15 @@
                     <div class=" form-label-group text-left">
                         <div class="row">
                             <div class="col">
-                                <button id="printLable" class="btn btn-lg btn-primary btn-block" name="return_value"
+                                <button id="printLable" class="btn btn-sm btn-primary btn-block"
+                                        name="return_value"
                                         value="manifest" type="submit">Create Metrc Template
                                 </button>
                             </div>
                             <div class="col">
-                                <button class="btn btn-lg btn-primary btn-block" name="return_value" value="abort"
+                                <button class="btn btn-sm btn-primary btn-block" name="return_value"
+                                        value="abort"
                                         type="submit">Return without Manifest
-                                </button>
-                            </div>
-                            <div class="col">
-                                <button class="btn btn-lg btn-warning btn-block" type="reset" onclick="clearErrors()">
-                                    Remove Messages
                                 </button>
                             </div>
                         </div>
@@ -275,6 +283,8 @@
                     }
                     var elem = document.getElementById("errors");
                     elem.parentNode.removeChild(elem);
+
+                    document.getElementById("mybutton").remove();
                 }
             </script>
 

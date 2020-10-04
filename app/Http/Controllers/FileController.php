@@ -108,7 +108,7 @@ class FileController extends Controller
                 $driver_id = $plr->driver_id;
                 $vehicle_id = $plr->vehicle_id;
             } else {
-                $planned_route = 'Fastest route according to legal requirements.';
+                $planned_route =  $sale_order_full . ' ' . $so->customer->name . "\r\n\r\n" . 'Fastest route according to legal requirements.';
                 $driver_id = 0;
                 $vehicle_id = 0;
             }

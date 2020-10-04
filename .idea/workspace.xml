@@ -11,7 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="747adb48-f53a-4d24-a77d-a053fba9a503" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alfre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alfre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/nova.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/nova.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/get_saleorder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/get_saleorder.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/metrc/make_package.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/metrc/make_package.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/metrc/manifest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/metrc/manifest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +165,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -209,6 +218,12 @@
       <workItem from="1599255303651" duration="643000" />
       <workItem from="1599315591584" duration="381000" />
       <workItem from="1599422148159" duration="535000" />
+      <workItem from="1601510477959" duration="174000" />
+      <workItem from="1601510775689" duration="89000" />
+      <workItem from="1601510952206" duration="648000" />
+      <workItem from="1601593673980" duration="3753000" />
+      <workItem from="1601597471942" duration="1540000" />
+      <workItem from="1601667879987" duration="5524000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1598641772124</created>
@@ -271,23 +286,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="start import tags" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="141" key="#Deployment" timestamp="1599233442039">
+    <state x="442" y="141" key="#Deployment" timestamp="1601510984924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="141" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1599233442039" />
+    <state x="442" y="141" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1601510984924" />
     <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1598641506131" />
-    <state x="536" y="165" key="#SSH_Configurations" timestamp="1598640146565">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="429" y="114" key="#SSH_Configurations" timestamp="1601510982905">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="429" y="114" key="#SSH_Configurations/0.0.1536.824@0.0.1536.824" timestamp="1601510982905" />
     <state x="536" y="165" key="#SSH_Configurations/0.0.1920.1040@0.0.1920.1040" timestamp="1598640146565" />
+    <state x="542" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601596709231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1601596709231" />
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598901389569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598901389569" />
+    <state x="168" y="120" width="1200" height="584" key="DirDiffDialog" timestamp="1601597456055">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="168" y="120" width="1200" height="584" key="DirDiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1601597456055" />
     <state x="604" y="335" key="NewPhpFileDialog" timestamp="1598883154754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1598883154754" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1601510647712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601510647712" />
     <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1600391484322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -297,30 +325,24 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1598882144677" />
-    <state x="667" y="241" width="585" height="558" key="find.popup" timestamp="1598722131827">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="534" y="191" width="789" height="534" key="find.popup" timestamp="1601594522482">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="534" y="191" width="789" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601594522482" />
     <state x="667" y="241" width="585" height="558" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598722131827" />
     <state x="609" y="338" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598902058824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="609" y="338" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598902058824" />
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598642159610" />
+    <state x="698" y="357" key="publish.login" timestamp="1601510851542">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="698" y="357" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1601510851542" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1598887042831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598887042831" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598716029149" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/print_manifest.blade.php</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
