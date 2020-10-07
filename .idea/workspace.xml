@@ -10,17 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="747adb48-f53a-4d24-a77d-a053fba9a503" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alfre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alfre.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+    <list default="true" id="747adb48-f53a-4d24-a77d-a053fba9a503" name="Default Changelist" comment="improvements while testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/nova.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/nova.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/get_saleorder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/get_saleorder.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/metrc/make_package.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/metrc/make_package.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/metrc/manifest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/metrc/manifest.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +148,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/metrc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FleetCart" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -172,6 +164,19 @@
       <recent name="C:\Users\alfre\code\metrc_odoo.ozinc.info\resources\views\metrc" />
       <recent name="C:\Users\alfre\code\metrc_manifest.ozinc.info\app" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -223,7 +228,9 @@
       <workItem from="1601510952206" duration="648000" />
       <workItem from="1601593673980" duration="3753000" />
       <workItem from="1601597471942" duration="1540000" />
-      <workItem from="1601667879987" duration="5524000" />
+      <workItem from="1601667879987" duration="6804000" />
+      <workItem from="1602004683945" duration="1379000" />
+      <workItem from="1602024669683" duration="5007000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1598641772124</created>
@@ -253,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598902116385</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="improvements while testing">
+      <created>1601836664064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601836664064</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +297,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="start testing" />
     <MESSAGE value="start import tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="start import tags" />
+    <MESSAGE value="improvements while testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="improvements while testing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="141" key="#Deployment" timestamp="1601510984924">
@@ -304,10 +319,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598901389569" />
-    <state x="168" y="120" width="1200" height="584" key="DirDiffDialog" timestamp="1601597456055">
+    <state x="168" y="120" width="1200" height="584" key="DirDiffDialog" timestamp="1602026101032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="168" y="120" width="1200" height="584" key="DirDiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1601597456055" />
+    <state x="168" y="120" width="1200" height="584" key="DirDiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1602026101032" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602011281139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602011281139" />
     <state x="604" y="335" key="NewPhpFileDialog" timestamp="1598883154754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -316,10 +335,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601510647712" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1600391484322">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1601837304604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600391484322" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601837304604" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598642169075" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598882144677">
       <screen x="0" y="0" width="1536" height="824" />
@@ -330,19 +349,19 @@
     </state>
     <state x="534" y="191" width="789" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601594522482" />
     <state x="667" y="241" width="585" height="558" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598722131827" />
-    <state x="609" y="338" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598902058824">
+    <state x="609" y="338" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601836969573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="609" y="338" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598902058824" />
+    <state x="609" y="338" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601836969573" />
     <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598642159610" />
     <state x="698" y="357" key="publish.login" timestamp="1601510851542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="698" y="357" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1601510851542" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1598887042831">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1602024710841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598887042831" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602024710841" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598716029149" />
   </component>
 </project>

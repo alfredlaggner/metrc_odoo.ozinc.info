@@ -73,12 +73,14 @@ class FileController extends Controller
             /*            $so = MetrcSalesOrder::first();
                         $saleorder_number = $so->saved_sales_order;*/
             $metrc_order_line = MetrcOrderline::first();
+         //   dd($metrc_order_line);
             $sale_order_full = $metrc_order_line->invoice_number;
             $order_id = $metrc_order_line->order_id;
             $saleorder_number = $metrc_order_line->order_id;
+         //   dd($sale_order_full);
+
             $so = SalesOrder::where('sales_order', $sale_order_full)->first();
             //    $this->updateOrderLines($return_tag, $return_line_number);
-
         } else {
             $saleorder_number = $request->get('saleorder_number');
 
@@ -100,6 +102,7 @@ class FileController extends Controller
         $sales_lines = MetrcOrderline::get();
 //dd($sales_lines);
         //    $so = SaleInvoice::where('order_id', $saleorder_number)->first();
+
         if ($so) {
             $customer_id = $so->customer_id;
             $plr = MetrcPlannedRoute::where('customer_id', $customer_id)->first();
